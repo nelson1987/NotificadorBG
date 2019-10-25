@@ -73,6 +73,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CalculaIntervalo.cs" />
+    <Compile Include="Services\ConectaHub.cs" />
+    <Compile Include="Services\ExibeMensagem.cs" />
+    <Compile Include="Services\NotificaUsuario.cs" />
+    <Compile Include="Services\RegistraLog.cs" />
+    <Compile Include="Services\SelecionaUsuario.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
