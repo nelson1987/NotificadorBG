@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NotificadorBG.Forms.Services
+﻿namespace NotificadorBG.Forms.Services
 {
-    class CalculaIntervalo
+    public class CalculaIntervalo
     {
+        public int Intervalo { get; private set; }
+
     }
 }
